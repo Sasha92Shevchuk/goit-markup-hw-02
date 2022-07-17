@@ -2,6 +2,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --accent-white-color: #ffffff;
 }
 
 body {
@@ -14,6 +15,10 @@ body {
 /* шапка сайту */
 .logo {
   color: #000000;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
 }
 .logo > .web {
   color: var(--accent-color);
@@ -30,7 +35,7 @@ body {
 }
 
 .contacts-nav .link {
-  color: var (--primary-text-color);
+  color: var(--primary-text-color);
 }
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
@@ -41,11 +46,20 @@ body {
   background-color: #2f303a;
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--accent-white-color);
 }
 .button {
-  color: #ffffff;
+  color: var(--accent-white-color);
   background-color: var(--accent-color);
+}
+/* .button.primary {
+  background-color: var(--accent-color);
+  color:  var(--accent-white-color);
+} */
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+  background-color: var(--accent-white-color);
 }
 
 /* Заголовки секцій */
@@ -61,4 +75,15 @@ body {
 /* Наша команда */
 .title-team {
   color: var(--title-text-color);
+}
+
+/* Футер */
+footer {
+  background-color: #2f303a;
+}
+.map-link {
+  color: var(--accent-white-color);
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
 }

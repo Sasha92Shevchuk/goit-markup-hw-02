@@ -146,3 +146,19 @@ footer {
 a {
   text-decoration: none;
 }
+/* Портфоліо */
+.title-project {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.invisible {
+  visibility: hidden;
+}

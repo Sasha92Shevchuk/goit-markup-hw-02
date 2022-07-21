@@ -75,6 +75,7 @@ body {
 .button {
   color: var(--accent-white-color);
   background-color: var(--accent-color);
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -93,6 +94,7 @@ body {
 /* Заголовки секцій */
 .section-title {
   color: var(--title-text-color);
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -102,6 +104,7 @@ body {
 /* Особливості */
 .feature-list .title {
   color: var(--title-text-color);
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -123,6 +126,9 @@ body {
 footer {
   background-color: #2f303a;
 }
+.studio {
+  color: var(--accent-white-color);
+}
 .map-link {
   color: var(--accent-white-color);
 }
@@ -137,10 +143,9 @@ footer {
 .footer-link:focus {
   color: var(--accent-color);
 }
-/* .address {
-  font-weight: 400;
-  line-height: 1.71;
-} */
+.address {
+  font-style: normal;
+}
 
 /* Розмітка шрифтів */
 a {
@@ -161,4 +166,20 @@ a {
 
 .invisible {
   visibility: hidden;
+}
+
+.button-portfolio {
+  color: var(--accent-white-color);
+  background-color: var(--accent-color);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--accent-color);
+  background-color: var(--accent-white-color);
 }
